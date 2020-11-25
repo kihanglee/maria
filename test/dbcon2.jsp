@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="java.sql.*"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="java.sql.*"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
  <html>
 <head>
@@ -8,8 +7,8 @@
 </head>
 <body>
 <%
-String DB_URL = "jdbc:mariadb://192.168.16.48:3306/mtpdb";
-String DB_USER = "root";
+String DB_URL = "jdbc:mariadb://192.168.16.48:3306/employees";
+String DB_USER = "mtp";
 String DB_PASSWORD= "password";
 
 Connection conn;
