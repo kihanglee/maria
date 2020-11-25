@@ -167,16 +167,16 @@
     <resources>
 	    <data-source>
 		    <database>
-			    <data-source-id>MySQL_TEST</data-source-id>
-			    <export-name>jdbc/mysql</export-name>
-		    	    <data-source-class-name>com.mysql.cj.jdbc.MysqlConnectionPoolDataSource</data-source-class-name>
+			    <data-source-id>jdbc/maria</data-source-id>
+			    <export-name>jdbc/maria</export-name>
+		    	    <data-source-class-name>org.mariadb.jdbc.MySQLDataSource</data-source-class-name>
 			    <data-source-type>ConnectionPoolDataSource</data-source-type>
-			    <vendor>mysql</vendor>
-			    <server-name>172.30.102.148</server-name>
+			    <vendor>etc</vendor>
+			    <server-name>192.168.16.48</server-name>
 			    <port-number>3306</port-number>
-			    <database-name>sampledb</database-name>
-			    <user>admin</user>
-			    <password>rplinux</password>
+			    <database-name>mtpdb</database-name>
+			    <user>mtp</user>
+			    <password>password</password>
 			    <login-timeout>0</login-timeout>
 			    <auto-commit>DRIVER</auto-commit>
 			    <stmt-query-timeout>0</stmt-query-timeout>
