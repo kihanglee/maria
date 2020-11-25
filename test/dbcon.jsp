@@ -6,7 +6,7 @@
 
     // JNDI 부터 DataSource 얻자
     Context ctx = new InitialContext();
-    DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/mtpdb");
+    DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/maria");
  
     Connection conn = null;
     Statement stmt = null;

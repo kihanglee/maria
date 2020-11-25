@@ -8,8 +8,8 @@
 <body>
 <%
 String DB_URL = "jdbc:mariadb://192.168.16.48:3306/employees";
-String DB_USER = "mtp";
-String DB_PASSWORD= "password";
+String DB_USER = "mtp3";
+String DB_PASSWORD= "mtp3";
 
 Connection conn;
 Statement stmt;

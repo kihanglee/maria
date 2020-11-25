@@ -169,19 +169,24 @@
 		    <database>
 			    <data-source-id>jdbc/maria</data-source-id>
 			    <export-name>jdbc/maria</export-name>
-		    	    <data-source-class-name>org.mariadb.jdbc.MySQLDataSource</data-source-class-name>
+		    	    <data-source-class-name>org.mariadb.jdbc.MariaDbDataSource</data-source-class-name>
 			    <data-source-type>ConnectionPoolDataSource</data-source-type>
 			    <vendor>others</vendor>
 			    <server-name>192.168.16.48</server-name>
 			    <port-number>3306</port-number>
-			    <database-name>mtpdb</database-name>
-			    <user>mtp</user>
-			    <password>password</password>
+			    <database-name>employees</database-name>
+			    <user>mtp3</user>
+			    <password>mtp3</password>
 			    <login-timeout>0</login-timeout>
 			    <auto-commit>DRIVER</auto-commit>
 			    <stmt-query-timeout>0</stmt-query-timeout>
 			    <pool-destroy-timeout>10000</pool-destroy-timeout>
 			    <support-xa-emulation>false</support-xa-emulation>
+            		    <property>
+               		      <name>URL</name>
+               		      <type>java.lang.String</type>
+                              <value>jdbc:mariadb:thin:@192.168.16.48:3306:employees</value>
+                            </property>
 			    <connection-pool>
 				    <pooling>
 					    <min>5</min>
