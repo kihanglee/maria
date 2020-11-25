@@ -171,7 +171,7 @@
 			    <export-name>jdbc/maria</export-name>
 		    	    <data-source-class-name>org.mariadb.jdbc.MySQLDataSource</data-source-class-name>
 			    <data-source-type>ConnectionPoolDataSource</data-source-type>
-			    <vendor>other</vendor>
+			    <vendor>others</vendor>
 			    <server-name>192.168.16.48</server-name>
 			    <port-number>3306</port-number>
 			    <database-name>mtpdb</database-name>
