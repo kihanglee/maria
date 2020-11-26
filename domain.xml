@@ -169,9 +169,10 @@
 		    <database>
 			    <data-source-id>jdbc/maria</data-source-id>
 			    <export-name>jdbc/maria</export-name>
-		    	    <data-source-class-name>org.mariadb.jdbc.MariaDbDataSource</data-source-class-name>
+		    	    <!-- data-source-class-name>org.mariadb.jdbc.MariaDbDataSource</data-source-class-name -->
+<data-source-class-name>com.mysql.cj.jdbc.MysqlConnectionPoolDataSource</data-source-class-name>
 			    <data-source-type>ConnectionPoolDataSource</data-source-type>
-			    <vendor>others</vendor>
+			    <vendor>mysql</vendor>
 			    <server-name>192.168.16.48</server-name>
 			    <port-number>3306</port-number>
 			    <database-name>employees</database-name>

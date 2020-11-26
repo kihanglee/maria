@@ -2,7 +2,7 @@ FROM image-registry.openshift-image-registry.svc:5000/openshift/jeus:8.1.105067-
 USER root
 
 COPY ROOT.war /root/app/
-COPY mariadb-java-client-2.7.1-sources.jar /root/jeus8/lib/datasource
+COPY mysql-connector-java-5.1.47.jar /root/jeus8/lib/datasource
 COPY domain.xml /root/jeus8/domains/domain1/config/domain.xml
 
 #
